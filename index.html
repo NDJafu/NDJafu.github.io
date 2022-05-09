@@ -10,6 +10,7 @@
     <link href="css/jafu.css" rel="stylesheet">
 </head>
 <body>
+<header>
    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
        <div class="container">
        <a href="index.html"
@@ -53,55 +54,84 @@
         </div>
         </div>
    </nav>
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#myCarousel"
-            data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#myCarousel"
-            data-bs-slide-to="1"></li>
-        </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="overlay-image" 
-                    style="background-image:url(/img/slide-1.png);">
+</header>
+    <main>
+        <div id="myCarousel" class="carousel slide carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel"
+                data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel"
+                data-bs-slide-to="1"></li>
+            </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="overlay-image" 
+                        style="background-image:url(/img/slide-1.png);">
+                        </div>
+                            <div class="carousel-caption text-start">
+                                <h1>Fuck You</h1>
+                                <p>And welcome to jafu's personal page, i created this in a hurry, this is for studying purposes, but i also plan to plug some my stuff on here. While you're here, this button take you straight to the map archive.</p>
+                                <a class="btn btn-light"
+                                href="/osumap/collection.html">
+                                All My Maps
+                                </a>
+                            </div>
                     </div>
-                    <div class="carousel-caption d-none d-sm-block text-start">
-                        <h1>Fuck You</h1>
-                        <p>And welcome to jafu's personal page, i created this in a hurry, this is for studying purposes, but i also plan to plug some my stuff on here. While you're here, this button take you straight to the map archive.</p>
-                        <a class="btn btn-light"
-                        href="/osumap/collection.html">
-                        All My Maps
-                        </a>
+                    <div class="carousel-item">
+                        <div class="overlay-image" 
+                        style="background-image:url(/img/slide-2.png);">
+                        </div>
+                        <div class="carousel-caption text-end">
+                            <h1>If you want to</h1>
+                            <p>contact me for any business. Feel free to check out all my social.</p>
+                            <a class="btn btn-light"
+                            href="#">
+                            Socials
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="overlay-image" 
-                    style="background-image:url(/img/slide-2.png);">
-                    </div>
-                    <div class="carousel-caption d-none d-sm-block text-end">
-                        <h1>If you want to</h1>
-                        <p>contact me for any business. Feel free to check out all my social.</p>
-                        <a class="btn btn-light"
-                        href="#">
-                        Socials
-                        </a>
+            <a href="#myCarousel" role="button" class="carousel-control-prev"
+            data-bs-slide="prev">
+                <span class="visually-hidden"></span>
+                <span class="carousel-control-prev-icon"
+                aria-hidden="true"></span>
+            </a>
+            <a href="#myCarousel" role="button" class="carousel-control-next"
+            data-bs-slide="next">
+                <span class="visually-hidden"></span>
+                <span class="carousel-control-next-icon"
+                aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="#social" class="socialpanel">
+                <video id="tuyubg" autoplay loop style="object-fit:cover;z-index:9;opacity:0.7;">
+                    <source src="video/social bg.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <svg role="img" margin-bottom="8px" width="140px" height="140px" fill="#1877F2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            <h2>da fbook</h2>
+                            <p>Gia Phú</p>
+                            <p><a class="btn btn-outline-info" href="https://www.facebook.com/retard.jajafufu" target="_blank">friend me or PMs</a></p>
+                          </div>
+                        <div class="col-lg-4">
+                            <svg role="img" margin-bottom="8px" width="140px" height="140px" fill="#5865F2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Discord</title><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg>
+                            <h2>my most active</h2>
+                            <p>Wanna hang? Just hit me up a DM</p>
+                            <p><a class="btn btn-outline-info">FlamingFox#4749</a></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <svg role="img" margin-bottom="8px" width="140px" height="140px" fill="#EA4335" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+                            <h2>Job? Yes</h2>
+                            <p>giaphu432@gmail.com</p>
+                          </div>
                     </div>
                 </div>
-            </div>
-        <a href="#myCarousel" role="button" class="carousel-control-prev"
-        data-bs-slide="prev">
-            <span class="visually-hidden"></span>
-            <span class="carousel-control-prev-icon"
-            aria-hidden="true"></span>
-        </a>
-        <a href="#myCarousel" role="button" class="carousel-control-next"
-        data-bs-slide="next">
-            <span class="visually-hidden"></span>
-            <span class="carousel-control-next-icon"
-            aria-hidden="true"></span>
-        </a>
-    </div>
-   
+        </div>
+        
+    </main>
     
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
